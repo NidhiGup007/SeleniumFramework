@@ -6,10 +6,7 @@
       <class name="com.training.sanity.tests.LoginTests">
         <methods>
           <include name="setUpBeforeClass"/>
-          <include name="validPasswordChange"/>
-          <include name="tearDown"/>
-          <include name="validOrderDetails"/>
-          <include name="ModifyPersonalDetails"/>
+          <include name="adminAllowsAddCategory"/>
         </methods>
       </class> <!-- com.training.sanity.tests.LoginTests -->
     </classes>
