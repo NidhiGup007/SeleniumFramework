@@ -35,7 +35,7 @@ public class ScreenShot {
 
 		GregorianCalendar calendar = new GregorianCalendar(); 
 		
-		int date =  calendar.get(Calendar.DATE); 
+		int date =  calendar.get(Calendar.DATE);
 		int minute = calendar.get(Calendar.MINUTE);
 		int second = calendar.get(Calendar.SECOND); 
 		
@@ -65,7 +65,7 @@ public class ScreenShot {
 
 	public void captureScreenShot(String fileName){
 		
-		String path =  "C:\\Users\\NIDHIGUPTA\\Desktop\\screenshots1\\";
+		String path =  "C:\\Users\\NIDHIGUPTA\\Desktop\\screenshots2\\";
 	
 		// 1. create file 
 		// 2. capture screenshot from selenium 

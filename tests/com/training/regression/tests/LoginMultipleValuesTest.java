@@ -24,14 +24,25 @@ public class LoginMultipleValuesTest {
 	private ScreenShot screenShot; 
 
 
+//	@DataProvider(name="inputs")
+//	public Object[][] getData() {
+//		return new Object[][] {
+//			{"admin", "admin@123"},
+//			{"naveen", "testing@123"}
+//		};
+//	}
+	
 	@DataProvider(name="inputs")
 	public Object[][] getData() {
 		return new Object[][] {
-			{"admin", "admin@123"},
-			{"naveen", "testing@123"}
+			{"Sports wear", "Sports", "Sports", "Sports"},
+			{"Cultural wear", "Cultural", "Cultural", "Cultural"},
+			{"Weekend uniform", "Weekend", "Weekend", "Weekend"},
+			{"Formal wear", "formal", "formal", "formal"}
 		};
 	}
 
+	
 	@BeforeClass
 	public static void setUpBeforeClass() throws IOException {
 		properties = new Properties();
@@ -56,12 +67,14 @@ public class LoginMultipleValuesTest {
 	}
 	
 	
-	@Test(dataProvider="inputs")
+           @Test(dataProvider="inputs")
 	public void testMethod1(String userName, String password) {
-		//loginPOM.sendUserName(userName);
+		loginPOM.sendUserName(userName);
 		loginPOM.sendPassword(password);
-		loginPOM.clickLoginBtn(); 
+		loginPOM.clickLoginBtn();
 		screenShot.captureScreenShot(userName);
-	}
+}
 	
+	
+
 }

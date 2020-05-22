@@ -1,29 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27781" started-at="2020-05-15T00:00:47Z" finished-at="2020-05-15T00:01:15Z">
+  <suite name="Default suite" duration-ms="41275" started-at="2020-05-22T02:45:52Z" finished-at="2020-05-22T02:46:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27781" started-at="2020-05-15T00:00:47Z" finished-at="2020-05-15T00:01:15Z">
-      <class name="com.training.sanity.tests.LoginTests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.LoginTests@482f8f11]" name="setUpBeforeClass" is-config="true" duration-ms="13685" started-at="2020-05-14T19:00:47Z" finished-at="2020-05-14T19:01:00Z">
+    <test name="Default test" duration-ms="41275" started-at="2020-05-22T02:45:52Z" finished-at="2020-05-22T02:46:33Z">
+      <class name="com.training.regression.tests.LoginExcelTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.LoginExcelTest@1593948d]" name="setUpBeforeClass" is-config="true" duration-ms="16355" started-at="2020-05-21T21:45:52Z" finished-at="2020-05-21T21:46:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="validReturnSuccess()[pri:0, instance:com.training.sanity.tests.LoginTests@482f8f11]" name="validReturnSuccess" duration-ms="6177" started-at="2020-05-14T19:01:00Z" finished-at="2020-05-14T19:01:07Z">
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@1593948d]" name="loginDBTest" duration-ms="7234" started-at="2020-05-21T21:46:10Z" data-provider="excel-inputs" finished-at="2020-05-21T21:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sports wear]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sports]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sports]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sports]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validReturnSuccess -->
-        <test-method status="PASS" signature="loginDenial()[pri:1, instance:com.training.sanity.tests.LoginTests@482f8f11]" name="loginDenial" duration-ms="2192" started-at="2020-05-14T19:01:07Z" finished-at="2020-05-14T19:01:09Z">
+        </test-method> <!-- loginDBTest -->
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@1593948d]" name="loginDBTest" duration-ms="5126" started-at="2020-05-21T21:46:17Z" data-provider="excel-inputs" finished-at="2020-05-21T21:46:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cultural wear]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cultural]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cultural]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cultural]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDenial -->
-        <test-method status="PASS" signature="adminAllowsAddCategory()[pri:2, instance:com.training.sanity.tests.LoginTests@482f8f11]" name="adminAllowsAddCategory" duration-ms="5671" started-at="2020-05-14T19:01:09Z" finished-at="2020-05-14T19:01:15Z">
+        </test-method> <!-- loginDBTest -->
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@1593948d]" name="loginDBTest" duration-ms="4708" started-at="2020-05-21T21:46:22Z" data-provider="excel-inputs" finished-at="2020-05-21T21:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Weekend uniform]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Weekend]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Weekend]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Weekend]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- adminAllowsAddCategory -->
-      </class> <!-- com.training.sanity.tests.LoginTests -->
+        </test-method> <!-- loginDBTest -->
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@1593948d]" name="loginDBTest" duration-ms="5605" started-at="2020-05-21T21:46:27Z" data-provider="excel-inputs" finished-at="2020-05-21T21:46:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Formal wear]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[formal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[formal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[formal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDBTest -->
+      </class> <!-- com.training.regression.tests.LoginExcelTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
